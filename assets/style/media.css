@@ -1,0 +1,307 @@
+@media screen and (max-width: 1430px){
+	.slick-prev, .slick-next{
+		top: -100px !important;
+		transform: translate(0, 0) !important;
+	}
+	.slick-next{
+		right: 100px !important;
+	}
+	.slick-prev{
+		left: 70% !important;
+		transform: rotate(180deg) !important;
+	}
+	.reviews .item{
+		margin-left: 0;
+	}
+	.reviews__inner{
+		grid-column-gap: 20px;
+	}
+}
+
+@media screen and (max-width: 1190px){
+	.container, .rental__inner{
+		margin: 0 15px;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	.rental .content{
+		flex-direction: column;
+	}
+	.rental .rental__items, .rental .map{
+		width: 100%;
+	}
+	.rental .rental__items{
+		margin-top: 40px;
+	}
+	.application, .surf__item{
+		grid-template-columns: 2fr;
+	}
+	.application .img img{
+		display: none;
+	}
+	.application.black img{
+		display: block;
+	}
+	.reviews .item{
+		height: auto;
+		flex-direction: column;
+	}
+	.reviews .vidio img {
+	    width: 100%;
+	    height: auto;
+	}
+}
+
+@media screen and (max-width: 1050px){
+	.footer__inner nav{
+		padding-right: 0;
+	}
+	.footer__inner{
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 850px){
+	.events__inner .content{
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		grid-row-gap: 20px;
+	}
+	.slick-prev {
+	    left: 60% !important;
+	}
+	.get__inner{
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		grid-row-gap: 40px;
+	}
+	.get__inner h1{
+		grid-column: 1/3;
+		padding-bottom: 40px;
+	}
+	.get__inner .item{
+		margin-top: 0 !important;
+	}
+	.instagram .content{
+		grid-template-columns: 2fr 2fr 2fr;
+	}
+	.instagram__header h1{
+		font-size: 40px;
+	}
+	.rental .rental__header{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 610px){
+	.instagram .content{
+		grid-template-columns: 2fr 2fr;
+	}
+	.instagram__header, .footer__inner{
+		flex-direction: column;
+	}
+	.footer__inner nav:not(:last-child){
+		margin-bottom: 50px;
+	}
+	.footer__inner nav:last-child ul li:first-child{
+		margin-left: 0;
+	}
+	.application .text{
+		padding-left: 20px !important;
+	}
+	.events__inner .content{
+		grid-template-columns: 2fr;
+	}
+	.present__inner .content{
+		flex-direction: column;
+	}
+	.present__inner .content .item{
+		margin-bottom: 20px;
+	}
+	.reviews__inner{
+		grid-template-columns: 2fr;
+	}
+	.reviews__inner h1{
+		grid-column: 1/2;
+	}
+	.reviews .item:not(:last-child){
+		margin-bottom: 20px;
+	}
+	.get__inner .item img{
+		width: 100%;
+	}
+	.surf__item .img, .surf__item .learning{
+		display: none;
+	}
+	.surf__item .content{
+		padding-left: 20px;
+	}
+	.surf__item .text p{
+		max-width: 100%;
+	}
+	.surf__item .text h1, .surf__item .text span{
+		text-align: center;
+		display: block;
+	}
+	.surf__item .text button:not(.button){
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.surf__item .price{
+		justify-content: center;
+	}
+	.surf__item .button{
+		height: 53px;
+		margin: 20px auto 0;
+		display: block;
+		max-width: 100%;
+	}
+	.surf__item .content{
+		padding-right: 20px;
+	}
+	.get__inner h1{
+		font-size: 26px;
+	}
+	.application .text form input{
+		width: auto;
+	}
+	.events__inner h1{
+		font-size: 26px;
+	}
+	.events__inner .content .item .text h3{
+		font-size: 20px;
+		line-height: 23px;
+	}
+	.events__inner .content .item .text p{
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.events__inner .content .item .text{
+		padding: 15px 20px;
+	}
+	.events__inner .content .item .button{
+		height: 40px;
+		max-width: 136px;
+		font-size: 16px;
+	}
+	.present__inner .content .item .text .info{
+		display: none;
+	}
+	.present__inner .content .item .text{
+		padding: 20px;
+	}
+	.present__inner .content .item .text h2{
+		font-size: 20px;
+	}
+	.present__inner .content .item .text .button{
+		font-size: 17px;
+	}
+	.present__inner .content .item .text .button .price{
+		font-size: 17px;
+	}
+	.present__inner .content .item{
+		margin-right: 0;
+	}
+	.present__inner > h1{
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.present__inner > p{
+		font-size: 17px;
+		line-height: 20px;
+	}	
+	.present__inner{
+		padding: 40px 0 0 0;
+	}
+	.reviews__inner h1{
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.application .text h1{
+		font-size: 25px;
+		line-height: 29px;
+	}
+	.application .text ul li{
+		font-size: 17px;
+	}
+	.application .text ul li img{
+		margin-right: 10px;
+	}
+	.application .text{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.get__inner .item p{
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.get__inner .item img{
+		width: 100px;
+	}
+	.get__inner{
+		padding: 40px 15px;
+	}
+	.get__inner .item .index{
+		width: 50px;
+		height: 50px;
+		font-size: 24px;
+		line-height: 28px;
+		z-index: 10;
+	}
+	.surfers__inner .item img{
+		width: 100px;
+	}
+	.surfers__inner .item p{
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.surfers__inner{
+		padding-bottom: 42px;
+		padding-left: 15px;
+	}
+	.surfers__inner .item{
+		margin-right: 10px;
+	}
+	.rental .rental__header h1{
+		display: none;
+	}
+	.intro h1{
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.intro p{
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.intro{
+		padding: 28px 0 40px;
+	}
+	.intro .button.orange{
+		height: 54px;
+	}
+	.intro a{
+		margin-top: 55px;
+	}
+	.header__top{
+		display: none;
+	}
+	.header__content{
+		padding-top: 8px;
+		flex-direction: column;
+		justify-content: flex-start;align-items: flex-start;
+	}
+	.basket{
+		display: none;
+	}
+	.header__content nav ul{
+		padding-top: 9px;
+	}
+	.header__content nav ul li a{
+		font-size: 11px;
+line-height: 13px;
+	}
+}
